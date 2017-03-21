@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #EDF2C5;
+}
+h1,h2,p{
+  font-family: Arial Black;
+}
+.container {
+  position: relative;
+  width: 1260px;
+  padding:0 160px;
+  margin: 0 auto;
+  margin-top: 53px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.fright{
+  float: right;
+}
+.fleft{
+  float: left;
+}
+header::after,nav::after,article::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h1.title{
+  font-size: 44px;
+  float: left;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  color: #778A50;
+}
